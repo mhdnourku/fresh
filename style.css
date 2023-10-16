@@ -1,0 +1,54 @@
+.headerlink:hover {
+    color: orange;
+
+}
+.headerlink {
+    color: #acaaaa;
+
+}
+.FirstSection{
+    background-color: #d8d8d828;
+}
+.bottomLine::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: orange;
+    margin: 20px  auto;
+    border-radius: 3px;
+}
+.iconlist{
+    width: 80px;
+    height: 80px;
+    line-height: 75px;
+    border-radius: 50%;
+    border: solid 2px #d8d8d828;
+    transition: 600ms;
+    cursor: pointer;
+}
+.iconlist:hover{
+    color: orange;
+    transform:translateY(-10px);
+}
+.imgSection{
+    background-image:url(https://source.unsplash.com/g30P1zcOzXo/1600x900&quot);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footerSection{
+    background-color: #444F60;
+}
+.icon{
+    margin-left: 25px;
+    cursor: pointer;
+    transition: 600ms;
+}
+.icon i{
+    margin-left: 8px;
+    color: orange;
+}
+
+.icon i:hover{
+    color: #fff;
+}
